@@ -4,8 +4,8 @@ This document explains how navigation routes in the React frontend map to Expres
 
 ## 1) Base setup
 
-- Frontend routes are defined in `/tmp/workspace/Dnaveed/medisense12/client/src/App.jsx`.
-- Backend route prefixes are mounted in `/tmp/workspace/Dnaveed/medisense12/server/server.js`.
+- Frontend routes are defined in `client/src/App.jsx`.
+- Backend route prefixes are mounted in `server/server.js`.
 - Frontend API base URL comes from `VITE_API_URL` (client env).
 - Backend secrets/config are read from `server/.env` (`DB_URL`, `JWT_SECRET`, etc.).
 
